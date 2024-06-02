@@ -10,12 +10,12 @@
     </a>
 </p>
 
-### [🕹 Live Game](https://thefed.app)
+### [🕹 Live Game](https://thefed.wtf)
 
 ### [🛠 Development](docs/Development.md)
 
 ### ⚖️ License
 
-MIT License
+FAG LICENSE
 
 ### [📺 Learn more about the Federal Reserve System »](https://youtu.be/mQUhJTxK5mA?t=138)
