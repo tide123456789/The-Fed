@@ -227,27 +227,15 @@ Footer.propTypes = {
     ),
 };
 
-const homepage = 'https://memetic.institute';
+const homepage = 'https://thefed.wtf';
 const tweet = {
-    url: 'https://thefed.app',
+    url: 'https://thefed.wtf',
     text:
         'Play as Jerome Powell and see if you can print faster at the @federalreserve:',
-    handle: 'memetic_insti2t',
+    handle: 'thefedsol',
     hashtags: ['brrr'],
 };
 const items = [
-    {
-        children: 'More Memes',
-        href: `${homepage}/projects`,
-        icon: faPlusCircle,
-        color: '#700fdd',
-    },
-    {
-        children: 'Donate',
-        href: `${homepage}/gib`,
-        icon: faBitcoin,
-        color: '#f90',
-    },
     {
         children: 'Share',
         className: 'share-twitter',
@@ -262,31 +250,6 @@ const items = [
             href: `${twitterUrl}/${tweet.handle}`,
             icon: faTwitter,
             color: twitterColor,
-        },
-        {
-            title: 'Facebook',
-            href:
-                'https://fb.me/institute.for.memetic.research.and.development',
-            icon: faFacebook,
-            color: '#4267B2',
-        },
-        {
-            title: 'Discord',
-            href: 'https://discord.gg/mUxVBb4',
-            icon: faDiscord,
-            color: '#7289DA',
-        },
-        {
-            title: 'Patreon',
-            href: 'https://www.patreon.com/memeticinstitute',
-            icon: faPatreon,
-            color: '#f96854',
-        },
-        {
-            title: 'GitHub',
-            href: 'https://github.com/memetic-institute/The-Fed',
-            icon: faGithub,
-            color: black,
         },
     ],
 ];
